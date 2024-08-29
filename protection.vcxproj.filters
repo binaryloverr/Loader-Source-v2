@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry point\protection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading\APIs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading\ApiTypeDefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading\Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiAnalysis\process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\BeingDebugged.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\CheckRemoteDebuggerPresent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\CloseHandle_InvalidHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\HardwareBreakpoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\Interrupt_0x2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\Interrupt_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\IsDebuggerPresent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\LowFragmentationHeap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\MemoryBreakpoints_PageGuard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\ModuleBoundsHookCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtGlobalFlag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtQueryInformationProcess_ProcessDebugFlags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtQueryInformationProcess_ProcessDebugObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtQueryInformationProcess_ProcessDebugPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtQueryObject_AllTypesInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtQueryObject_ObjectTypeInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtQuerySystemInformation_SystemKernelDebuggerInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtSetInformationThread_ThreadHideFromDebugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtSystemDebugControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\NtYieldExecution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\OutputDebugStringAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\PageExceptionBreakpointCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\ParentProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\ProcessHeap_Flags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\ProcessHeap_ForceFlags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\ProcessJob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\ScanForModules.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\SeDebugPrivilege.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\SetHandleInformation_API.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\SharedUserData_KernelDebugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\SoftwareBreakpoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\TLS_callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\TrapFlag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\UnhandledExceptionFilter_Handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\WriteWatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDebug\WUDF_IsDebuggerPresent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDisassm\AntiDisassm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDump\ErasePEHeaderFromMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiDump\SizeOfImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\Generic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\HyperV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\KVM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\Parallels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\Qemu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\Services.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\VirtualBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\VirtualPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\VMWare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\Wine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\AntiVM\Xen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\CodeInjection\InjectedDLL\InjectedDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\CodeInjection\CreateRemoteThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\CodeInjection\GetSetThreadContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\CodeInjection\NtCreateThreadEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\CodeInjection\QueueUserAPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\CodeInjection\RtlCreateUserThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\CodeInjection\SetWindowsHooksEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protections\TimingAttacks\timing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Loading\APIs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\VersionHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\winapifamily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\WinStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading\ApiTypeDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiAnalysis\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiAnalysis\process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\WUDF_IsDebuggerPresent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\BeingDebugged.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\CheckRemoteDebuggerPresent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\CloseHandle_InvalidHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\HardwareBreakpoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\Interrupt_0x2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\Interrupt_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\IsDebuggerPresent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\LowFragmentationHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\MemoryBreakpoints_PageGuard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\ModuleBoundsHookCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtGlobalFlag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtQueryInformationProcess_ProcessDebugFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtQueryInformationProcess_ProcessDebugObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtQueryInformationProcess_ProcessDebugPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtQueryObject_ObjectInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtQuerySystemInformation_SystemKernelDebuggerInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtSetInformationThread_ThreadHideFromDebugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtSystemDebugControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\NtYieldExecution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\OutputDebugStringAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\PageExceptionBreakpointCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\ParentProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\ProcessHeap_Flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\ProcessHeap_ForceFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\ProcessJob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\ScanForModules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\SeDebugPrivilege.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\SetHandleInformation_API.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\SharedUserData_KernelDebugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\SoftwareBreakpoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\TLS_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\TrapFlag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\UnhandledExceptionFilter_Handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDebug\WriteWatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDisassm\AntiDisassm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDisassm\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDump\ErasePEHeaderFromMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDump\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiDump\SizeOfImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\Generic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\HyperV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\KVM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\Parallels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\Qemu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\Services.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\VirtualBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\VirtualPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\VMWare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\Wine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\AntiVM\Xen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\CodeInjection\InjectedDLL\InjectedDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\CodeInjection\CreateRemoteThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\CodeInjection\GetSetThreadContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\CodeInjection\NtCreateThreadEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\CodeInjection\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\CodeInjection\QueueUserAPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\CodeInjection\RtlCreateUserThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\CodeInjection\SetWindowsHooksEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\TimingAttacks\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protections\TimingAttacks\timing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="protections\AntiDebug\int2d_x64.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="protections\AntiDebug\int2d_x86.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="protections\AntiDisassm\AntiDisassm_x64.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="protections\AntiDisassm\AntiDisassm_x86.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="protections\CodeInjection\InjectedDLL\definitions.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="protections\OfficeMacro\al-khaser.docm" />
+    <None Include="protections\OfficeMacro\macros.vba" />
+  </ItemGroup>
+</Project>
